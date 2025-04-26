@@ -3,55 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Zubaer Milky - Portfolio</title>
     <style>
-        body {
+        /* Reset default margin/padding */
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
-            background-color: #f9f9f9;
+            background: linear-gradient(to right, #f8f9fa, #e0eafc);
             color: #333;
+        }
+
+        /* Navbar styles */
+        nav {
+            width: 100%;
+            background-color: #ffffffcc;
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #0077ff;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 2rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #0077ff;
+        }
+
+        /* Section styles */
+        section {
+            padding: 100px 20px 60px;
+            max-width: 1000px;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+
+        #home {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
-            height: 100vh;
             text-align: center;
         }
 
+        #home img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+            border: 3px solid #0077ff;
+        }
+
         h1 {
-            font-size: 3rem;
-            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
         }
 
         p {
             font-size: 1.2rem;
-            max-width: 600px;
-            margin: 0 1rem;
+            color: #555;
         }
 
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: #0077ff;
+        }
+
+        /* Footer */
         footer {
-            margin-top: 2rem;
+            text-align: center;
+            padding: 2rem;
             font-size: 0.9rem;
             color: #777;
+            margin-top: 3rem;
         }
 
-        a {
-            color: #0077ff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
+        /* Smooth scroll */
+        html {
+            scroll-behavior: smooth;
         }
     </style>
 </head>
-<body>
-    <h1>Hi, I'm Zubaer Milky!</h1>
-    <p>Welcome to my portfolio. I'm passionate about science and tech, and I love building awesome things.</p>
 
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Zubaer Milky</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <img src="profile.jpg" alt="Your Photo Placeholder">
+        <h1>Hi, I'm Zubaer!</h1>
+        <p>Welcome to my professional portfolio website. I'm passionate about building, designing, and creating impactful work.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            I'm a Computer Science student at the University of South Florida with a passion for building technology that makes a difference.
+
+Throughout my academic journey, I’ve developed strong skills in programming, web development, and software engineering principles. I enjoy turning complex problems into simple, beautiful solutions — whether it's through developing applications, designing websites, or diving into data structures and algorithms.
+Outside of academics, I'm constantly exploring new technologies, working on personal projects, and staying curious about the future of tech. I'm excited to continue growing as a developer and contribute meaningfully to innovative projects.
+
+        </p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <p>
+            [Showcase your best projects here. You can add images, project descriptions, and links.]
+        </p>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2 class="section-title">Resume</h2>
+        <p>
+            [Link your resume here, or highlight key experiences, skills, and education.]
+        </p>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        Built with ❤️ | <a href="https://github.com/zubaer012" target="_blank">GitHub</a>
+        © 2025 Zubaer Milky. All rights reserved.
     </footer>
+
 </body>
 </html>
