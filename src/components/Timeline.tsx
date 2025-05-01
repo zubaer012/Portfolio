@@ -1,7 +1,10 @@
 import React from "react";
 import "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBriefcase,
+  faGraduationCap,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -20,13 +23,27 @@ function Timeline() {
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="2022 - present"
+            iconStyle={{ background: "#006747", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faGraduationCap} />}
+          >
+            <h3 className="vertical-timeline-element-title">USF</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Computer Science (B.S)
+            </h4>
+            <p>Tampa, FL</p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date="2022 - present"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
               Software Developer
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h4 className="vertical-timeline-element-subtitle">Dhaka, BD</h4>
             <p>
               Python & REST APi development, NATS distributed messaging, testing
               infrastructure
@@ -39,12 +56,12 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Software Engineer Inter (Platform and Data)
+              Software Engineer Intern (Platform and Data)
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h4 className="vertical-timeline-element-subtitle">Dhaka, BD</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team
-              Leading
+              Kafka & Spark ETL development, Spring Boot microservices, GraphQL
+              gateway, Kubernetes deployment across AWS/GCP
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -54,10 +71,13 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Staff Engineer Intern
+              IT Customer Support
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
-            <p>Full-stack Development, API Development, User Experience</p>
+            <h4 className="vertical-timeline-element-subtitle">Tampa, FL</h4>
+            <p>
+              Hardware and network troubleshooting, print system monitoring with
+              99% uptime, and customer support for 500+ users/month
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -66,10 +86,14 @@ function Timeline() {
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Data Analyst Intern
+              Research Assistant
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>Automation, Data Governance, Statistical Analysis</p>
+            <h4 className="vertical-timeline-element-subtitle">Tampa, FL</h4>
+            <p>
+              Researched evolutionary algorithms for adaptive systems and
+              time-dependent optimization, and developed tech-supported
+              strategies to overcome learning barriers in computing education
+            </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

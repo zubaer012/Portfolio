@@ -31,7 +31,7 @@ function Footer() {
         >
           Zubaer Milky
         </a>{" "}
-        with 💜
+        with React
       </p>
     </footer>
   );
