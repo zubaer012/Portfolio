@@ -1,5 +1,6 @@
 /* ===== main.scss ===== */
 .about-section {
+  position: relative;
   transform: translateZ(0);
   will-change: transform;
   min-height: 100vh;
@@ -10,11 +11,24 @@
   width: 100%;
   padding: 0px 15%;
   min-height: 700px;
-  background-image: url("../images/bg-dark.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+
+  // Dark image overlay that only affects the image itself
+  .bg-overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; // or exact dimensions if it’s not full width
+    height: auto;
+    opacity: 0.8; // ← this is the sweet spot for darkening the image
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  .content,
+  .image-wrapper {
+    position: relative;
+    z-index: 2;
+  }
 
   &.dark-mode {
     background-color: rgba(0, 0, 0, 0.2);
@@ -22,7 +36,6 @@
 
   .content {
     text-align: left;
-    z-index: 2;
 
     .social_icons {
       display: flex;
@@ -53,8 +66,6 @@
   }
 
   .image-wrapper {
-    z-index: 2;
-
     img {
       width: 150px;
       border-radius: 50%;
