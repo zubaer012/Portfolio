@@ -1,38 +1,111 @@
-.vertical-timeline span {
-    color: white;
-    font-family: 'Courier Prime', monospace;
+/* =======================
+   Card Base Styling
+======================= */
+.vertical-timeline-element-content {
+  background: linear-gradient(to right, #ffffff, #f0f0f5);
+  color: #2a2a2a;
+  font-family: "Inter", sans-serif !important;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.vertical-timeline p {
-    color: rgb(39, 40, 34);
+.vertical-timeline-element-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
 }
 
-.vertical-timeline-element p {
-    color: rgb(39, 40, 34);
+/* =======================
+     Title/Subtext/Text
+  ======================= */
+.vertical-timeline-element-title {
+  color: #1a1a1a;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
 }
 
-.vertical-timeline-element h3 {
-    color: rgb(39, 40, 34);
+.vertical-timeline-element-subtitle {
+  color: #555;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
 }
 
-.vertical-timeline-element h4 {
-    color: rgb(39, 40, 34);
+.vertical-timeline-element-content p {
+  color: #444;
+  line-height: 1.6;
+  margin: 0;
 }
 
-.vertical-timeline-element span {
-    color: rgb(39, 40, 34);
+/* =======================
+     Dynamic Border Based on Position
+  ======================= */
+/* Light Mode: Purple borders */
+.vertical-timeline-element:nth-child(odd):not(.dark-mode *)
+  .vertical-timeline-element-content {
+  border-left: 6px solid #5000ca;
 }
 
+.vertical-timeline-element:nth-child(even):not(.dark-mode *)
+  .vertical-timeline-element-content {
+  border-right: 6px solid #5000ca;
+}
+
+/* Dark Mode: Blue borders */
+.dark-mode
+  .vertical-timeline-element:nth-child(odd)
+  .vertical-timeline-element-content {
+  border-left: 6px solid #3fa9f5;
+}
+
+.dark-mode
+  .vertical-timeline-element:nth-child(even)
+  .vertical-timeline-element-content {
+  border-right: 6px solid #3fa9f5;
+}
+
+/* =======================
+     Dark Mode
+  ======================= */
+.dark-mode .vertical-timeline-element-content {
+  background: linear-gradient(to right, #1c2b3a, #2b3f51);
+  color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+}
+
+.dark-mode .vertical-timeline-element-title {
+  color: #ffffff;
+}
+
+.dark-mode .vertical-timeline-element-subtitle {
+  color: #cccccc;
+}
+
+.dark-mode .vertical-timeline-element-content p {
+  color: #dddddd !important;
+}
+
+/* =======================
+     Dates and Misc
+  ======================= */
 .vertical-timeline-element .vertical-timeline-element-date {
-    color: white;
-}
-
-.svg-inline--fa {
-    color: white;
+  color: white;
 }
 
 @media screen and (max-width: 1170px) {
-    .vertical-timeline-element .vertical-timeline-element-date {
-        color: rgb(39, 40, 34);
-    }
+  .vertical-timeline-element .vertical-timeline-element-date {
+    color: rgb(39, 40, 34);
+  }
+}
+
+.vertical-timeline span {
+  color: white;
+  font-family: "Courier Prime", monospace;
+}
+
+.svg-inline--fa {
+  color: white;
 }
