@@ -20,8 +20,6 @@ function Timeline() {
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
-            contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="2022 - present"
             iconStyle={{ background: "#006747", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faGraduationCap} />}
@@ -34,8 +32,6 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
-            contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="2022 - present"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
@@ -45,7 +41,7 @@ function Timeline() {
             </h3>
             <h4 className="vertical-timeline-element-subtitle">Dhaka, BD</h4>
             <p>
-              Python & REST APi development, NATS distributed messaging, testing
+              Python & REST API development, NATS distributed messaging, testing
               infrastructure
             </p>
           </VerticalTimelineElement>
