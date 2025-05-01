@@ -7,15 +7,11 @@ function Footer() {
   return (
     <footer>
       <div>
-        <a
-          href="https://github.com/yujisatojr"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://github.com/zubaer012" target="_blank" rel="noreferrer">
           <GitHubIcon />
         </a>
         <a
-          href="https://www.linkedin.com/in/yujisato/"
+          href="https://www.linkedin.com/in/zubaermilky/"
           target="_blank"
           rel="noreferrer"
         >
@@ -23,15 +19,10 @@ function Footer() {
         </a>
       </div>
       <p>
-        A portfolio designed & built by{" "}
-        <a
-          href="https://github.com/yujisatojr/react-portfolio-template"
-          target="_blank"
-          rel="noreferrer"
-        >
+        Portolio of{" "}
+        <a href="https://github.com/zubaer012" target="_blank" rel="noreferrer">
           Zubaer Milky
-        </a>{" "}
-        with React
+        </a>
       </p>
     </footer>
   );
