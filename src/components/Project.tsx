@@ -30,14 +30,14 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://github.com/yujisatojr/multi-reg-analysis"
+            href="https://github.com/zubaer012/property-regression-analyzer"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://github.com/yujisatojr/multi-reg-analysis"
+            href="https://github.com/zubaer012/property-regression-analyzer"
             target="_blank"
             rel="noreferrer"
           >
@@ -52,14 +52,34 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://github.com/zubaer012/submeowrine"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={mock01} className="zoom" alt="thumbnail" width="100%" />
+          </a>
+          <a
+            href="https://github.com/zubaer012/submeowrine"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Submeowrine</h2>
+          </a>
+          <p>
+            Developed and released an Android mobile application using Java and
+            Android Studio that runs a 2D shooting game.
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://zubaermilky.itch.io/highspeeedchase"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock09} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://zubaermilky.itch.io/highspeedchase"
             target="_blank"
             rel="noreferrer"
           >
@@ -73,14 +93,14 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://zubaermilky.itch.io/spacecraft"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://zubaermilky.itch.io/spacecraft"
             target="_blank"
             rel="noreferrer"
           >
@@ -127,14 +147,14 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://www.byuh.edu/covid-19-case-management"
+            href="https://health.usf.edu/care/patient-resources/covid19"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock05} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://www.byuh.edu/covid-19-case-management"
+            href="https://health.usf.edu/care/patient-resources/covid19"
             target="_blank"
             rel="noreferrer"
           >
@@ -149,14 +169,14 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://holokai.byuh.edu/programs-of-study"
+            href="https://catalog.usf.edu/content.php?catoid=23&navoid=3958"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock03} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://holokai.byuh.edu/programs-of-study"
+            href="https://catalog.usf.edu/content.php?catoid=23&navoid=3958"
             target="_blank"
             rel="noreferrer"
           >
@@ -170,14 +190,14 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix"
+            href="https://usf.edu/transfer-evaluation-guidelines-and-matrix"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock02} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix"
+            href="https://usf.edu/transfer-evaluation-guidelines-and-matrix"
             target="_blank"
             rel="noreferrer"
           >
@@ -187,26 +207,6 @@ function Project() {
             Created an interactive CSV table generator with Java, Handlebars,
             and LESS. This project helps transfer students to quickly identify
             eligible credits.
-          </p>
-        </div>
-        <div className="project">
-          <a
-            href="https://github.com/yujisatojr/submeowrine"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={mock01} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a
-            href="https://github.com/yujisatojr/submeowrine"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Submeowrine</h2>
-          </a>
-          <p>
-            Developed and released an Android mobile application using Java and
-            Android Studio that runs a 2D shooting game.
           </p>
         </div>
       </div>
