@@ -72,23 +72,23 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://zubaermilky.itch.io/highspeeedchase"
+            href="https://github.com/zubaer012/budget-tracker"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock09} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://zubaermilky.itch.io/highspeedchase"
+            href="https://github.com/zubaer012/budget-tracker"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>High Speed Chase</h2>
+            <h2>Budget Tracker</h2>
           </a>
           <p>
-            Designed, developed, and launched a 3D multiplayer racing game with
-            C# and Unity. This is available on Itch.io for gamers worldwide to
-            enjoy.
+            Designed and developed a user friendly budgeting app with powerful
+            features such as month filtering, monthly visual dashboards,
+            simplified expense and income tracker, and much more.
           </p>
         </div>
         <div className="project">
