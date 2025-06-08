@@ -50,26 +50,7 @@ function Project() {
             libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.
           </p>
         </div>
-        <div className="project">
-          <a
-            href="https://github.com/zubaer012/submeowrine"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={mock01} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a
-            href="https://github.com/zubaer012/submeowrine"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Submeowrine</h2>
-          </a>
-          <p>
-            Developed and released an Android mobile application using Java and
-            Android Studio that runs a 2D shooting game.
-          </p>
-        </div>
+
         <div className="project">
           <a
             href="https://github.com/zubaer012/budget-tracker"
@@ -110,6 +91,26 @@ function Project() {
             Developed and released a fully featured crowdfunding applcation.
             Users can generate a profile, create projets and fund other projects
             right from the App.
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/zubaer012/submeowrine"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={mock01} className="zoom" alt="thumbnail" width="100%" />
+          </a>
+          <a
+            href="https://github.com/zubaer012/submeowrine"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Submeowrine</h2>
+          </a>
+          <p>
+            Developed and released an Android mobile application using Java and
+            Android Studio that runs a 2D shooting game.
           </p>
         </div>
         <div className="project">
