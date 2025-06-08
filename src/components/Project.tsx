@@ -93,22 +93,23 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://zubaermilky.itch.io/spacecraft"
+            href="https://github.com/zubaer012/jumpstart-crowdfunding"
             target="_blank"
             rel="noreferrer"
           >
             <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://zubaermilky.itch.io/spacecraft"
+            href="https://github.com/zubaer012/jumpstart-crowdfunding"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Astro Raiders</h2>
+            <h2>JumpStart</h2>
           </a>
           <p>
-            Developed and released a 2D shooting game with C# and Unity. This
-            project is hosted on the Itch.io public marketplace.
+            Developed and released a fully featured crowdfunding applcation.
+            Users can generate a profile, create projets and fund other projects
+            right from the App.
           </p>
         </div>
         <div className="project">
