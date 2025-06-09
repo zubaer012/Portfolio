@@ -30,6 +30,49 @@ function Project() {
         </div>
         <div className="project">
           <a
+            href="https://github.com/zubaer012/git-repo-manager"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={mock06} className="zoom" alt="thumbnail" width="100%" />
+          </a>
+          <a
+            href="https://github.com/zubaer012/git-repo-manager"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Git Repo Manager: GitHub repository management</h2>
+          </a>
+          <p>
+            Electron application that allows users to fully browse GitHub repos,
+            including reading their pull requests, issues and repo info, with
+            integrated custom GitHub access token API.
+          </p>
+        </div>
+        <div className="project">
+          <a
+            href="https://github.com/zubaer012/property-regression-analyzer"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
+          </a>
+          <a
+            href="https://github.com/zubaer012/property-regression-analyzer"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Multiple Regression Property Analysis</h2>
+          </a>
+          <p>
+            Analyzed the real estate market in Japan and predicted property
+            prices by implementing statistical methods such as OLS and
+            multi-regression analysis. This project leveraged Python and various
+            libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.
+          </p>
+        </div>
+        <div className="project">
+          <a
             href="https://github.com/zubaer012/jumpstart-crowdfunding"
             target="_blank"
             rel="noreferrer"
@@ -72,28 +115,6 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://github.com/zubaer012/property-regression-analyzer"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a
-            href="https://github.com/zubaer012/property-regression-analyzer"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Multiple Regression Property Analysis</h2>
-          </a>
-          <p>
-            Analyzed the real estate market in Japan and predicted property
-            prices by implementing statistical methods such as OLS and
-            multi-regression analysis. This project leveraged Python and various
-            libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.
-          </p>
-        </div>
-        <div className="project">
-          <a
             href="https://github.com/zubaer012/submeowrine"
             target="_blank"
             rel="noreferrer"
@@ -131,19 +152,6 @@ function Project() {
             This is an online educational platform that provides high-quality,
             data science-focused learning resources in the Japanese language. I
             created the entire platform from scratch using Ruby on Rails.
-          </p>
-        </div>
-        <div className="project">
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
-            <img src={mock06} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
-            <h2>WeManage: Real Estate Asset Management</h2>
-          </a>
-          <p>
-            This mobile application allows realtors in Japan to securely manage
-            their property information and view future income predictions. This
-            app is built with Ruby on Rails and JavaScript.
           </p>
         </div>
         <div className="project">
