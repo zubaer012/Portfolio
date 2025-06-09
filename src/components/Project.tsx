@@ -30,27 +30,25 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://github.com/zubaer012/property-regression-analyzer"
+            href="https://github.com/zubaer012/jumpstart-crowdfunding"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
+            <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://github.com/zubaer012/property-regression-analyzer"
+            href="https://github.com/zubaer012/jumpstart-crowdfunding"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Multiple Regression Property Analysis</h2>
+            <h2>JumpStart</h2>
           </a>
           <p>
-            Analyzed the real estate market in Japan and predicted property
-            prices by implementing statistical methods such as OLS and
-            multi-regression analysis. This project leveraged Python and various
-            libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.
+            Developed and released a fully featured crowdfunding applcation.
+            Users can generate a profile, create projets and fund other projects
+            right from the App.
           </p>
         </div>
-
         <div className="project">
           <a
             href="https://github.com/zubaer012/budget-tracker"
@@ -74,23 +72,24 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://github.com/zubaer012/jumpstart-crowdfunding"
+            href="https://github.com/zubaer012/property-regression-analyzer"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
+            <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://github.com/zubaer012/jumpstart-crowdfunding"
+            href="https://github.com/zubaer012/property-regression-analyzer"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>JumpStart</h2>
+            <h2>Multiple Regression Property Analysis</h2>
           </a>
           <p>
-            Developed and released a fully featured crowdfunding applcation.
-            Users can generate a profile, create projets and fund other projects
-            right from the App.
+            Analyzed the real estate market in Japan and predicted property
+            prices by implementing statistical methods such as OLS and
+            multi-regression analysis. This project leveraged Python and various
+            libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.
           </p>
         </div>
         <div className="project">
