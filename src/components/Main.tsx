@@ -39,6 +39,15 @@ function Main() {
           <h1>Zubaer Milky</h1>
           <p>Software Developer</p>
 
+          <a
+            className="resume-button"
+            href="/zubaer-milky-resume.pdf"
+            download
+            aria-label="Download resume"
+          >
+            Download Resume
+          </a>
+
           <div className="mobile_social_icons">
             <a
               href="https://github.com/zubaer012"
